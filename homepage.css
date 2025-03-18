@@ -1,0 +1,253 @@
+body {
+    background-color : aliceblue;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.btn{
+    background-color: #6db871;
+    border-radius: 5px;
+    font-size: 130%;
+    min-height: 7%;
+    cursor : pointer;
+}
+
+.btn:hover {
+    background-color: #3e8141;
+}
+
+.title1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragraph{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header */ 
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    flex-direction: row;
+    position : fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.nav-links li {
+    margin: 10px;
+    margin-bottom : 2px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 8px 12px;
+}
+
+.nav-links a:hover {
+    background-color: rgb(176, 176, 176);
+    border-radius: 5px;
+}
+
+#buttonLogin {
+    padding: 8px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bottom-header{
+    display : flex;
+    background-color: #242424;
+    color : aliceblue;
+}
+
+.header-text{
+    margin-left : 10px;
+    display : flex;
+    flex-direction: column;
+}
+
+#h1-header{
+    margin-top: 15%;
+    font-size: 50px;
+    min-width: 600px;
+    text-align: center;
+}
+
+#button-header{
+    max-width: 30%;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 6%;
+}
+
+/* Main */ 
+
+.informations{
+    min-height: 450px;
+    margin-top: 30px;
+}
+
+#aboutWeBin{
+    background-color: #86dc8a;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutOurPlanet{
+    margin-top: 2%;
+}
+
+#button-aboutOurPlanet{
+    margin-top: auto;
+    margin-bottom: 2%;
+    background-color: #242424;
+    color : aliceblue;
+    font-size: 150%;
+    min-height: 40px;
+}
+
+#button-aboutOurPlanet:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+.container-video{
+    background-image: url('Bin4.jpg');
+    background-size: cover;
+    opacity: 0.7;   
+    min-height: 600px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.background-video{
+    min-width: 50%;
+    min-height: 420px;
+    background-color: aliceblue;
+    box-shadow: 0px 3px 15px rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.video{
+    max-width: 700px;
+}
+
+#container-poster{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container-text-poster{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.background-title-poster{
+    background-color: #84ca88;
+    width: 80%;
+    box-shadow: 0px 3px 50px #609062;
+    border-radius: 200px;
+}
+
+#paragraph-poster{
+    font-size: 18px;
+    margin-top: 6%;
+}
+
+#greenposter{
+    max-height: 500px;
+}
+
+#container-greenposter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#container-aboutUs{
+    background-color: black;
+    display : flex;
+    flex-direction: column;
+    color : aliceblue;
+    height: 580px;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#title-aboutUs{
+    text-align: center;
+    font-size : 50px;
+    margin-top: 0.5%;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 20%;
+    height: 400px;
+    border: 1px solid white;
+    box-shadow: 12px 17px 30px rgba(237, 237, 237, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    }
+
+.card:hover {
+    border: 1px solid #609062;
+    transform: scale(1.10);
+    }
+
+
+/* footer */
+
+footer{
+    height: 200px;
+    background-color: #cfcfcf;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
