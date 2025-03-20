@@ -183,9 +183,13 @@ body {
 
 .background-title-poster{
     background-color: #84ca88;
-    width: 80%;
+    width: 85%;
     box-shadow: 0px 3px 50px #609062;
-    border-radius: 200px;
+    border-radius : 20px;
+}
+
+#title-poster{
+    justify-self: center;
 }
 
 #paragraph-poster{
@@ -242,7 +246,7 @@ body {
 .card:hover {
     border: 1px solid #609062;
     transform: scale(1.10);
-    }
+}
 
 
 /* footer */
