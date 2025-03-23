@@ -20,9 +20,7 @@ body {
     justify-self: center;
 }
 
-.paragraph{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 .slogan{
     justify-self: center;
@@ -114,27 +112,27 @@ body {
 .informations{
     min-height: 450px;
     margin-top: 30px;
-}
-
-#aboutWeBin{
     background-color: #86dc8a;
     display : flex;
     flex-direction: column;
     align-items: center;
+
+
 }
 
-#aboutOurPlanet{
-    margin-top: 2%;
+.informations p{
+    font-size: 20px;
+    
 }
 
-#button-aboutOurPlanet{
-    margin-top: auto;
-    margin-bottom: 2%;
-    background-color: #242424;
-    color : aliceblue;
-    font-size: 150%;
-    min-height: 40px;
+.informations li{
+    font-size: 20px;
 }
+
+
+
+
+
 
 #button-aboutOurPlanet:hover{
     background-color: rgb(110, 110, 110);
@@ -326,9 +324,7 @@ footer{
     box-shadow: 0px 3px 15px black; 
 }
 
-#div-vide-50{
-    height: 50%;
-}
+
 
 #slogan-header-products{
     font-size: 50px;
