@@ -20,9 +20,7 @@ body {
     justify-self: center;
 }
 
-.paragraph{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 .slogan{
     justify-self: center;
@@ -74,11 +72,7 @@ body {
     border-radius: 5px;
 }
 
-#buttonLogin {
-    padding: 8px 15px;
-    color: black;
-    text-decoration: none;
-}
+
 
 
 .banner {
@@ -111,14 +105,6 @@ body {
     align-self: center;
     margin-top: auto;
     margin-bottom: 6%;
-    
-}
-
-#button-header a{
-text-decoration: none;
-    font-size: 18px;
-    color: black;
-    padding: 8px 12px;
 }
 
 /* Main */ 
@@ -126,27 +112,27 @@ text-decoration: none;
 .informations{
     min-height: 450px;
     margin-top: 30px;
-}
-
-#aboutWeBin{
     background-color: #86dc8a;
     display : flex;
     flex-direction: column;
     align-items: center;
+
+
 }
 
-#aboutOurPlanet{
-    margin-top: 2%;
+.informations p{
+    font-size: 20px;
+    
 }
 
-#button-aboutOurPlanet{
-    margin-top: auto;
-    margin-bottom: 2%;
-    background-color: #242424;
-    color : aliceblue;
-    font-size: 150%;
-    min-height: 40px;
+.informations li{
+    font-size: 20px;
 }
+
+
+
+
+
 
 #button-aboutOurPlanet:hover{
     background-color: rgb(110, 110, 110);
@@ -178,6 +164,12 @@ text-decoration: none;
     max-width: 700px;
 }
 
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #container-poster{
     display: flex;
     flex-direction: row;
@@ -314,10 +306,6 @@ footer{
     flex-direction: column;
 }
 
-
-/* -----------   PAGE ACTIONNAIRE   ------------ */ 
-
-
 #background-image-header-products{
     background-image: url('Bin2.svg');
     opacity : 0.8;
@@ -336,11 +324,61 @@ footer{
     box-shadow: 0px 3px 15px black; 
 }
 
-#div-vide-50{
-    height: 50%;
-}
+
 
 #slogan-header-products{
     font-size: 50px;
     color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.reward-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.reward-card h2 {
+    font-size: 22px;
+    color: #2d572c;
+}
+
+.reward-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.reward-card button {
+    background-color: #6db871;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reward-card button:hover {
+    background-color: #3e8141;
+}
+
+.reward-card:hover {
+    transform: translateY(-5px);
 }
