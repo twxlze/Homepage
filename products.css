@@ -215,7 +215,6 @@ body {
     display : flex;
     flex-direction: column;
     color : aliceblue;
-    height: 580px;
 }
 
 .sub-container{
@@ -333,24 +332,45 @@ footer{
 
 
 /* Barre de progression */
-.progress-container {
-    width: 80%;
-    background-color: #ddd;
-    border-radius: 10px;
-    margin: 20px auto;
-    overflow: hidden;
-}
 
 .progress-bar {
-    width: 65%; /* Valeur statique */
-    background-color: #00ff0d;
-    color: black ;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 10px;
-}
+    width: 70%;
+    height: 3em;
+    border-radius: 8px;
+    background-color: #15491644;
+    display: flex;
+    justify-self: center;
+    margin-top: 2%;
+  }
+  
+  .progress-bar .bar {
+    height: 100%;
+    width: 100%;
+    background-color: #38ac3e;
+    animation: bounce 1s linear infinite;
+    transition: all;
+    color : black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes bounce {
+    from {
+      /*width: 0;*/
+      transform: scaleX(0.5);
+    }
+  
+    to {
+      transform: scaleX(0.55);
+      background-color: #87be8a;
+    }
+  }
 
+#pourcentage{
+    font-size: 160%;
+    font-weight: bold;
+}
 
 .sub-container {
     display: flex;
@@ -363,39 +383,84 @@ footer{
 .reward-card {
     background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 2cap rgba(0, 0, 0, 0.43);
     padding: 20px;
     text-align: center;
     width: 250px;
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
-.reward-card h2 {
-    font-size: 22px;
-    color: #2d572c;
+    .reward-card h2 {
+        font-size: 22px;
+        color: #2d572c;
+        height: 33,33%;
+    }
+
+    .reward-card p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 15px;
+        height: 50%;
+    }
+
+    .reward-card button {
+        background-color: #6db871;
+        color: black;
+        border: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 33,33%;
+        align-items: center;
+
+    }
+
+    .reward-card button:hover {
+        background-color: #3e8141;
+    }
+
+    .reward-card:hover {
+        transform: translateY(-14px);
+        cursor: pointer;
+    }
+
+    
+
+.image-div-50{
+    width: 50%;
 }
 
-.reward-card p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 15px;
+.flex-row{
+    display: flex;
+    flex-direction: row;
 }
 
-.reward-card button {
-    background-color: #6db871;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.text-div-50-center{
+    width: 50%;
 }
 
-.reward-card button:hover {
-    background-color: #3e8141;
+.tall-font-size-center{
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
 }
 
-.reward-card:hover {
-    transform: translateY(-5px);
+.whitesmoke-background{
+    background-color: rgb(237, 235, 235);
+}
+
+.margin-top{
+    margin-top : 4%;
+}   
+
+#calendrier{
+    width: 20%;
+    height: 30px;
+}
+
+.background{
+    background-color: rgb(189, 238, 185);   
 }
