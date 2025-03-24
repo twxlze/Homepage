@@ -215,7 +215,6 @@ body {
     display : flex;
     flex-direction: column;
     color : aliceblue;
-    height: 580px;
 }
 
 .sub-container{
@@ -398,4 +397,27 @@ footer{
 
 .reward-card:hover {
     transform: translateY(-5px);
+}
+
+.image-div-50{
+    width: 50%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-div-50-center{
+    width: 50%;
+}
+
+.tall-font-size-center{
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+}
+
+.whitesmoke-background{
+    background-color: rgb(237, 235, 235);
 }
