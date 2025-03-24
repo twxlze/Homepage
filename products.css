@@ -332,7 +332,24 @@ footer{
 }
 
 
+/* Barre de progression */
+.progress-container {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
 
+.progress-bar {
+    width: 65%; /* Valeur statique */
+    background-color: #00ff0d;
+    color: black ;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
 
 
 .sub-container {
